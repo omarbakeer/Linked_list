@@ -1,0 +1,35 @@
+struct node
+{
+	int data;
+	node *next;
+};
+
+class Linked_List
+{
+private:
+	node *first, *last;
+public:
+	Linked_List();
+	void insert_first(int data);
+	void insert_last(int data)	
+	void insert_index(int data, int index);
+	void insert_order(int data);
+
+	void delete_first(void);
+	void delete_last(void);
+	void delete_index(int index);
+	void delete_data(int data);
+
+	int read_first(void);
+	int read_last(void);
+	int read_index(int index);
+	int find_index(int data);
+
+	int get_number_of_elements(void);
+	void clear(void);			
+	int get_sum(void);
+	int get_max(void);
+	int get_min(void);
+	int get_average(void);		
+};
+
