@@ -1,5 +1,8 @@
 #include <iostream>
 
+// developed by Omarbakeer and Baha Sehsah
+//
+
 using namespace std;
 
 struct cell
